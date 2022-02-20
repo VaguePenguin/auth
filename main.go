@@ -135,3 +135,4 @@ func GetUserInfo(r *http.Request, fClient *firestore.Client, host, cookieName st
 
 	return &ui, nil
 }
+
